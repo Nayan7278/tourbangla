@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TourBangla - আপনার ভ্রমণের সঙ্গী</title>
+  <meta name="description" content="TourBangla - বাংলাদেশের অভ্যন্তরীণ ও আন্তর্জাতিক ট্যুর প্যাকেজ, হোটেল বুকিং এবং পরিবহন সেবা।">
+  <meta name="keywords" content="TourBangla, ভ্রমণ, ট্যুর প্যাকেজ, বাংলাদেশ, কক্সবাজার, সুন্দরবন, দার্জিলিং, হোটেল বুকিং, ট্যুরস এন্ড ট্রাভেলস">
+  <meta name="author" content="TourBangla">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-gray-800 font-sans">
+
+  <!-- হেডার -->
+  <header class="bg-green-600 text-white p-4 shadow-md">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold">TourBangla</h1>
+      <nav class="space-x-4 hidden md:block">
+        <a href="#services" class="hover:underline">সেবা</a>
+        <a href="#tours" class="hover:underline">প্যাকেজ</a>
+        <a href="#contact" class="hover:underline">যোগাযোগ</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- হিরো সেকশন -->
+  <section class="bg-cover bg-center h-[80vh] flex items-center justify-center text-center" style="background-image: url('https://source.unsplash.com/1600x900/?bangladesh,travel');">
+    <div class="bg-black bg-opacity-50 p-8 rounded-lg text-white">
+      <h2 class="text-4xl font-bold mb-4">বাংলার সৌন্দর্য আবিষ্কার করুন</h2>
+      <p class="text-lg mb-6">TourBangla এর সাথে আপনার স্বপ্নের যাত্রা শুরু হোক আজই</p>
+      <a href="#tours" class="bg-yellow-400 hover:bg-yellow-500 text-black px-6 py-3 rounded-full font-semibold">প্যাকেজ দেখুন</a>
+    </div>
+  </section>
+
+  <!-- সেবা সমূহ -->
+  <section id="services" class="py-16 bg-gray-100">
+    <div class="container mx-auto text-center">
+      <h3 class="text-3xl font-bold mb-10">আমাদের সেবা</h3>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="p-6 bg-white rounded shadow">
+          <h4 class="text-xl font-bold mb-2">দেশীয় ট্যুর</h4>
+          <p>সুন্দরবন, কক্সবাজার, সিলেট সহ বাংলাদেশের সকল জনপ্রিয় গন্তব্যে ট্যুর।</p>
+        </div>
+        <div class="p-6 bg-white rounded shadow">
+          <h4 class="text-xl font-bold mb-2">আন্তর্জাতিক ট্যুর</h4>
+          <p>ভারত, নেপাল, থাইল্যান্ডসহ এশিয়ার বিভিন্ন দেশে গ্রুপ ও পার্সোনাল ট্যুর।</p>
+        </div>
+        <div class="p-6 bg-white rounded shadow">
+          <h4 class="text-xl font-bold mb-2">হোটেল ও পরিবহন</h4>
+          <p>বিশ্বস্ত হোটেল বুকিং ও এসি পরিবহন সুবিধা সহ নিরাপদ ভ্রমণ।</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- প্যাকেজ সমূহ -->
+  <section id="tours" class="py-16">
+    <div class="container mx-auto text-center">
+      <h3 class="text-3xl font-bold mb-10">ট্যুর প্যাকেজ</h3>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="bg-white rounded shadow p-4">
+          <img src="https://source.unsplash.com/400x250/?coxsbazar" class="w-full h-48 object-cover rounded mb-4" alt="Cox's Bazar">
+          <h4 class="text-xl font-semibold">কক্সবাজার ভ্রমণ</h4>
+          <p class="mb-2">৩ দিন ২ রাত | শুরু ৫,৫০০৳</p>
+          <a href="#booking" class="text-green-600 font-bold">বুকিং করুন</a>
+        </div>
+        <div class="bg-white rounded shadow p-4">
+          <img src="https://source.unsplash.com/400x250/?sundarban" class="w-full h-48 object-cover rounded mb-4" alt="Sundarban">
+          <h4 class="text-xl font-semibold">সুন্দরবন এক্সপ্লোর</h4>
+          <p class="mb-2">৪ দিন ৩ রাত | শুরু ৭,০০০৳</p>
+          <a href="#booking" class="text-green-600 font-bold">বুকিং করুন</a>
+        </div>
+        <div class="bg-white rounded shadow p-4">
+          <img src="https://source.unsplash.com/400x250/?darjeeling" class="w-full h-48 object-cover rounded mb-4" alt="Darjeeling">
+          <h4 class="text-xl font-semibold">দার্জিলিং ট্যুর</h4>
+          <p class="mb-2">৫ দিন ৪ রাত | শুরু ১২,০০০৳</p>
+          <a href="#booking" class="text-green-600 font-bold">বুকিং করুন</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- বুকিং ফর্ম -->
+  <section id="booking" class="bg-gray-100 py-16">
+    <div class="container mx-auto max-w-xl">
+      <h3 class="text-3xl font-bold text-center mb-8">বুকিং ফর্ম</h3>
+      <form class="bg-white p-6 rounded shadow space-y-4">
+        <input type="text" placeholder="আপনার নাম" class="w-full border p-3 rounded">
+        <input type="email" placeholder="ইমেইল" class="w-full border p-3 rounded">
+        <input type="tel" placeholder="মোবাইল নম্বর" class="w-full border p-3 rounded">
+        <select class="w-full border p-3 rounded">
+          <option>প্যাকেজ নির্বাচন করুন</option>
+          <option>কক্সবাজার</option>
+          <option>সুন্দরবন</option>
+          <option>দার্জিলিং</option>
+        </select>
+        <textarea rows="4" placeholder="বিশেষ অনুরোধ (যদি থাকে)" class="w-full border p-3 rounded"></textarea>
+        <button type="submit" class="w-full bg-green-600 text-white py-3 rounded font-semibold">বুকিং জমা দিন</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- যোগাযোগ -->
+  <section id="contact" class="bg-green-600 text-white py-16">
+    <div class="container mx-auto text-center">
+      <h3 class="text-3xl font-bold mb-6">যোগাযোগ করুন</h3>
+      <p class="mb-4">আপনার পছন্দের প্যাকেজ, বুকিং অথবা কাস্টম ট্যুর সম্পর্কে জানতে আজই যোগাযোগ করুন।</p>
+      <a href="mailto:info@tourbangla.com" class="text-lg font-semibold underline">info@tourbangla.com</a>
+      <p class="mt-2">📞 +880 1234 567 890</p>
+      <div class="mt-4">
+        <a href="https://wa.me/8801234567890" target="_blank" class="inline-flex items-center bg-white text-green-600 px-4 py-2 rounded-full font-bold hover:bg-gray-100">
+          <img src="https://img.icons8.com/color/48/000000/whatsapp--v1.png" class="w-6 h-6 mr-2" alt="WhatsApp"> WhatsApp এ বার্তা পাঠান
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- গুগল ম্যাপ -->
+  <section class="py-10">
+    <div class="container mx-auto text-center">
+      <h3 class="text-2xl font-bold mb-4">আমাদের লোকেশন</h3>
+      <div class="w-full h-96">
+        <iframe class="w-full h-full rounded shadow" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.9027765124434!2d90.39134551498222!3d23.750903394590705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b85c8e4df233%3A0x49552bb1b0a39b1!2sDhaka!5e0!3m2!1sen!2sbd!4v1625249995000" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- ফুটার -->
+  <footer class="bg-gray-800 text-white text-center py-6">
+    <p>&copy; 2025 TourBangla. সর্বস্বত্ব সংরক্ষিত।</p>
+  </footer>
+
+</body>
+</html>
